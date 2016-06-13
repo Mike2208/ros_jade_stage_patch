@@ -30,7 +30,7 @@ depends=(${ros_depends[@]}
 _tag=release/jade/stage/${pkgver}-${_pkgver_patch}
 _dir=stage
 source=("${_dir}"::"git+https://github.com/ros-gbp/stage-release.git"#tag=${_tag}
-	"patchAmbiguities.patch")
+	"https://raw.githubusercontent.com/Mike2208/ros_jade_stage_patch/master/patchAmbiguities.patch")
 md5sums=('SKIP'
          '18200d21a832eaf37093c7e91e78b3e3')
 
